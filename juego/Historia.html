@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilosH1.css">
+    <title>Juego: Andy y Jumandi</title>
+</head>
+<body>
+
+<div class="hero">
+
+
+
+    <nav>
+        <ul>
+            <li>
+                <a href='juegoN1.html' class="jugar">
+                    <span id="span1"></span>
+                    <span id="span2"></span>
+                    <span id="span3"></span>
+                    <span id="span4"></span>                   
+                    JUGAR
+                </a>
+            
+            
+            
+            
+            </li>
+        </ul>
+    </nav>
+</div>
+
+
+<div class="video-background">
+    <div class="video-foreground">
+
+        <video autoplay loop plays-inline>
+
+            <source src="historia.mp4" type="video/mp4" class="video" >
+        </video>
+
+
+
+
+
+    </div>
+  </div>
+
+
+
+<style>
+    video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  .video-background {
+    background: #000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -100;
+  }
+  .video-foreground,
+  .video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  .video-background video {
+    border: 0;
+  }
+
+
+
+  /*letrasss*/
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  nav {
+    display: flex;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  li {
+    margin-right: 1rem;
+  }
+  .jugar {
+    text-decoration: none;
+    color: rgb(250, 249, 249);
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+  }
+
+
+
+
+
+
+
+
+  
+    
+
+</style>
+
+
+
+
+
+    
+</body>
+</html>
